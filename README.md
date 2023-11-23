@@ -5,7 +5,7 @@ O presente repositório tem como objetivo fornecer uma biblioteca de algoritmos 
 ## Arquivos:
 
 ```Finalizar Atendimentos.js```
-
+ 
 > Arquivos responsável pela finalização em massa de atendimentos de suporte em progresso 
 
 ```finalizar-feedback.js```
@@ -18,6 +18,6 @@ O presente repositório tem como objetivo fornecer uma biblioteca de algoritmos 
 
 ```git@github.com:theusouza0/IXC-Soft.git```
 
-2. Abra o console de seu navegador
+2. Abra o console de seu navegador na página corresponde
 
 3. Cole o Código dentro do script correspondente

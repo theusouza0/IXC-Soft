@@ -15,6 +15,20 @@ for(let i=0;i<button[0].textContent.length;i++){
     	}
 }
 
+function check(){
+    for (let item in button) {
+        if (button[item].textContent == "Editar") {
+            button[item].click();
+        }
+    }
+    
+    let id_atendimento = document.querySelector("#id_ticket").value;
+    if(id_atendimento == "638538"){
+        console.log("Atendimento de alarmada!");
+    }
+}
+
+
 
 //encaminha x feedbacks determinado na let item pra cada id que estiver na lista acima
 let a = 0
@@ -50,4 +64,4 @@ while (a<aux) {
     a++;
 
     await sleep(2); 
-    };
+};
