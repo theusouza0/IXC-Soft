@@ -12,15 +12,15 @@ O presente repositório tem como objetivo fornecer uma biblioteca de algoritmos 
 
 > Arquivos responsável pela finalização em ordens de serviço de feedback pós manutenção em aberto
 
-## finalizar-feedback.js
 
-### Realeses:
+## Realeses:
 
 **check**:
 
 Função de verificação do ID do atendimento da o.s, indicando o motivo pela qual a manutenção foi aberta
 
 **Data** 23/11/23
+**arquivo**: finalizar-feedback.js
 
 ## Utilização
 
