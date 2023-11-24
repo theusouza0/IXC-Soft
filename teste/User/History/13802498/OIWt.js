@@ -41,7 +41,7 @@ while (a<aux) {
         const close = document.getElementById("su_oss_chamado_btn_close");
         close.click();
 
-        console.log("Pós BD físico identificado, finalizando...!");
+        console.log("Alarmada!");
 
         for (let item in button) {
             if (button[item].textContent == "Finalizar") {
@@ -60,7 +60,7 @@ while (a<aux) {
     
     
         await sleep(1);
-        document.querySelector("#mensagem").value = "Feedback finalizado, O.S devido problemas externos";
+        document.querySelector("#mensagem").value = "Feedback finalizado, O.S de alarmada devido problemas externos";
         
         await sleep(1);
     
