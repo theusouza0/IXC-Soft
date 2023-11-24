@@ -96,7 +96,6 @@ while (a<aux) {
         document.querySelector("#id_tecnico").value = 211; // ALTERAR PARA SEU ID!!!
         
         await sleep(1);
-        const date = new Date();
         document.querySelector("#mensagem").value = "Feedback encaminhado para análise manual"+'\n'+"Em"+" "+date;
         
         await sleep(1);

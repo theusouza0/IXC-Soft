@@ -61,7 +61,7 @@ while (a<aux) {
     
         await sleep(1);
         const date = new Date();
-        document.querySelector("#mensagem").value = "Feedback finalizado em massa, O.S devido problemas externos ou expirado a data de realização"+'\n'+"Em"+" "+date;
+        document.querySelector("#mensagem").value = "Feedback finalizado em massa, O.S devido problemas externos ou expirado a data de realização"+'\n'+"Em"+date;
         
         await sleep(1);
     
@@ -96,8 +96,7 @@ while (a<aux) {
         document.querySelector("#id_tecnico").value = 211; // ALTERAR PARA SEU ID!!!
         
         await sleep(1);
-        const date = new Date();
-        document.querySelector("#mensagem").value = "Feedback encaminhado para análise manual"+'\n'+"Em"+" "+date;
+        document.querySelector("#mensagem").value = "Feedback encaminhado para análise manual"+'\n'+"Em"+date;
         
         await sleep(1);
         document.querySelector("#data_inicio").value = "00000000000000"; 
