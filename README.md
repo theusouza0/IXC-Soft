@@ -13,7 +13,7 @@ O presente repositório tem como objetivo fornecer uma biblioteca de algoritmos 
 > Arquivos responsável pela finalização em ordens de serviço de feedback pós manutenção em aberto
 
 
-## Realeses:
+## Releases:
 
 **check**:
 
@@ -22,6 +22,26 @@ Função de verificação do ID do atendimento da o.s, indicando o motivo pela q
 **Data** 23/11/23
 
 **arquivo**: finalizar-feedback.js
+
+--- 
+
+**run**
+
+Função que percorre a lista de ordens de serviço selecionando as linhas uma por uma
+
+**Data** 24/11/23
+
+**arquivo** finalizar-feedback.js
+
+---
+
+**separator**
+
+Função que finaliza seletivamente os feedbacks, baseado no tipo de atendimento que gerou esse bd
+
+**Data** 24/11/23
+
+**arquivo** finalizar-feedback.js
 
 ## Utilização
 
