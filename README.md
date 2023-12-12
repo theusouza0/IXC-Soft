@@ -2,7 +2,7 @@
 
 O presente repositório tem como objetivo fornecer uma biblioteca de algoritmos relacionados á automação de processos relacionados ao sistema de ERP IXC Soft
 
-## Arquivos:
+# Arquivos:
 
 ```Finalizar Atendimentos.js```
  
@@ -13,41 +13,46 @@ O presente repositório tem como objetivo fornecer uma biblioteca de algoritmos 
 > Arquivos responsável pela finalização em ordens de serviço de feedback pós manutenção em aberto
 
 
-## Releases:
+# Functions:
 
-**check**:
+## **check**:
 
 Função de verificação do ID do atendimento da o.s, indicando o motivo pela qual a manutenção foi aberta
 
 **Data** 23/11/23
 
-**arquivo**: finalizar-feedback.js
+**arquivo**: ```finalizar-feedback.js```
 
 --- 
 
-**run**
+## **run**
 
 Função que percorre a lista de ordens de serviço selecionando as linhas uma por uma
 
 **Data** 24/11/23
 
-**arquivo** finalizar-feedback.js
+**arquivo** ```finalizar-feedback.js```
 
 ---
 
-**separator**
+## **separator**
 
 Função que finaliza seletivamente os feedbacks, baseado no tipo de atendimento que gerou esse bd
 
 **Data** 24/11/23
 
-**arquivo** finalizar-feedback.js
+**arquivo** ```finalizar-feedback.js```
 
-## Fluxograma:
+---
 
-**finalizar-feedback.js**
+## **Encaminhamento de feedbacks**
 
-## Informações para alterar:
+Função que redistruibiu os pós bd igualmente para cada colaborador na lista de id's
+
+**Data** 11/12/23
+
+**arquivo** ```Encaminhar-feedback.js```
+
 
 ## Utilização
 
